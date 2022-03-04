@@ -1,4 +1,4 @@
-# INT3120_20
+# INT3120_20 - 19021262
 
 
 
@@ -24,3 +24,6 @@
 
 ### Lesson 10: Statefulwidget trong Flutter
 <img src="./img/lesson10.png" alt="..." width="250" />
+
+### Lesson 11: ScopedModel trong Flutter
+<img src="./img/lesson11.png" alt="..." width="250" />
