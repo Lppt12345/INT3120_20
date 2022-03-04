@@ -1,115 +1,147 @@
 import 'package:flutter/material.dart';
+import 'package:scoped_model/scoped_model.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'Product.dart';
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  // This widget is the root of your application
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Lesson 11',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Lesson 11 - 19021262'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
+class MyHomePage extends StatelessWidget {
+  MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
+  final items = Product.getProducts();
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
+        appBar: AppBar(title: Text('Lesson 11 - 19021262')),
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return ProductBox(item: items[index]);
+          },
+        ));
+  }
+}
+
+class RatingBox extends StatelessWidget {
+  RatingBox({Key? key, required this.item}) : super(key: key);
+  final Product item;
+
+  Widget build(BuildContext context) {
+    double _size = 20;
+    print(item.rating);
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.end,
+      mainAxisSize: MainAxisSize.max,
+      children: <Widget>[
+        Container(
+          padding: const EdgeInsets.all(0),
+          child: IconButton(
+            icon: (item.rating >= 1
+                ? Icon(
+                    Icons.star,
+                    size: _size,
+                  )
+                : Icon(
+                    Icons.star_border,
+                    size: _size,
+                  )),
+            color: Colors.red[500],
+            onPressed: () => item.updateRating(1),
+            iconSize: _size,
+          ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+        Container(
+          padding: const EdgeInsets.all(0),
+          child: IconButton(
+            icon: (item.rating >= 2
+                ? Icon(
+                    Icons.star,
+                    size: _size,
+                  )
+                : Icon(
+                    Icons.star_border,
+                    size: _size,
+                  )),
+            color: Colors.red[500],
+            onPressed: () => item.updateRating(2),
+            iconSize: _size,
+          ),
+        ),
+        Container(
+          padding: const EdgeInsets.all(0),
+          child: IconButton(
+            icon: (item.rating >= 3
+                ? Icon(
+                    Icons.star,
+                    size: _size,
+                  )
+                : Icon(
+                    Icons.star_border,
+                    size: _size,
+                  )),
+            color: Colors.red[500],
+            onPressed: () => item.updateRating(3),
+            iconSize: _size,
+          ),
+        ),
+      ],
     );
+  }
+}
+
+class ProductBox extends StatelessWidget {
+  const ProductBox({Key? key, required this.item}) : super(key: key);
+  final Product item;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        padding: const EdgeInsets.all(2),
+        height: 140,
+        child: Card(
+          child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Image.asset("assets/" + item.image),
+                Expanded(
+                    child: Container(
+                        padding: EdgeInsets.all(5),
+                        child: ScopedModel<Product>(
+                            model: item,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: <Widget>[
+                                Text(item.name,
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold)),
+                                Text(item.description),
+                                Text("Price: " + item.price.toString()),
+                                ScopedModelDescendant<Product>(
+                                    builder: (context, child, item) {
+                                  return RatingBox(item: item);
+                                })
+                              ],
+                            ))))
+              ]),
+        ));
   }
 }
