@@ -103,7 +103,7 @@ class ProductBox extends StatelessWidget {
 
                       Text(this.name, style: const TextStyle(fontWeight:
                       FontWeight.bold)), Text(this.description),
-                      Text("Price: " + this.price.toString()),
+                      Text("Price: " +  this.price.toString()),
                     ],
                   )
                   )
