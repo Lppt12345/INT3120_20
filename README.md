@@ -2,7 +2,7 @@
 
 
 
-### Lesson 1: Tham khảo thông tin cơ bản về Flutter (Giới thiệu, tính năng, điểm mạnh,...)
+### Lesson 1: Giới thiệu Flutter
 ### Lesson 2: Cài đặt, thiết lập môi trường phát triển
 ### Lesson 3: Hello World
   <img src="./img/lesson3.png" alt="..." width="250" />
