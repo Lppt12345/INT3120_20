@@ -1,21 +1,26 @@
 # INT3120_20
-# Lesson 3:
-<img src="./img/lesson3.png" alt="..." width="250" />
-
-
-# Lesson 6:
-<img src="./img/lesson6.png" alt="..." width="250" />
 
 
 
-# Lesson 7:
-<img src="./img/lesson7.png" alt="..." width="250" />
+### Lesson 1: Tham khảo thông tin cơ bản về Flutter (Giới thiệu, tính năng, điểm mạnh,...)
+### Lesson 2: Cài đặt, thiết lập môi trường phát triển
+### Lesson 3: Hello World
+  <img src="./img/lesson3.png" alt="..." width="250" />
+  
+### Lesson 4: Tìm hiểu về kiến trúc ứng dụng Flutter
 
+### Lesson 5: Tìm hiểu về Dart
 
+### Lesson 6: Widget trong Flutter
+ <img src="./img/lesson6.png" alt="..." width="250" />
+ 
+### Lesson 7: Layout trong Flutter
+  <img src="./img/lesson7.png" alt="..." width="250" />
+  
+### Lesson 8: Gesture trong Flutter
+  <img src="./img/lesson8.png" alt="..." width="250" />
+  
+### Lesson 9: Quản lý trạng thái State trong Flutter
 
-# Lesson 8:
-<img src="./img/lesson8.png" alt="..." width="250" />
-
-
-# Lesson 10:
+### Lesson 10: Statefulwidget trong Flutter
 <img src="./img/lesson10.png" alt="..." width="250" />
