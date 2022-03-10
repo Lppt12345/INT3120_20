@@ -21,7 +21,7 @@ class MyHomePage extends StatelessWidget {
   MyHomePage({Key ? key, required this.title}) : super(key: key);
   final String title;
   static const platform =
-  MethodChannel('flutterapp.tutorialspoint.com/browser');
+  const MethodChannel('flutterapp.tutorialspoint.com/browser');
 
   Future<void> _openBrowser() async {
     try {
