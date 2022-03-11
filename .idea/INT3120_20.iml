@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/lesson14/untitled/android/app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson14/android/app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson14/android/app/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/gen" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson8/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson8/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson10/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson10/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson10/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson11/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson11/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson11/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson12/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson12/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson12/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson13/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson13/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson13/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson15/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson15/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson15/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson17/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson17/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson17/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson18/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson18/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson18/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson19/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson19/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson19/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson20/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson20/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson20/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson21/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson21/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson21/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson22/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson23/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson23/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson23/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/untitled/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/untitled/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/untitled/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/untitled/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/untitled/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/untitled/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/lesson14/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/lesson14/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/untitled/lesson14/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson16/packages/my_browser/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson14/sample_plugin_flutter/example/.dart_tool" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
